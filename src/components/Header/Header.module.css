@@ -1,0 +1,14 @@
+.header {
+  background-color: var(--color-panel-solid);
+  border-bottom: 1px solid var(--gray-a4);
+  height: 56px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 1px 3px var(--gray-a3);
+}
+
+.brand {
+  color: var(--accent-11);
+  letter-spacing: -0.4px;
+}

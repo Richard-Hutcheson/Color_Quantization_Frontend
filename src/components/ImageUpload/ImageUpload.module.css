@@ -1,0 +1,55 @@
+.dropzone {
+  border: 2px dashed var(--accent-6);
+  border-radius: var(--radius-3);
+  padding: var(--space-8) var(--space-6);
+  cursor: pointer;
+  text-align: center;
+  background-color: var(--accent-1);
+  transition:
+    background-color 150ms ease,
+    border-color 150ms ease;
+  outline: none;
+}
+
+.dropzone:hover,
+.dropzone:focus-visible {
+  background-color: var(--accent-2);
+  border-color: var(--accent-8);
+}
+
+.dragging {
+  background-color: var(--accent-3);
+  border-color: var(--accent-9);
+  border-style: solid;
+}
+
+.hasFile {
+  border-style: solid;
+  border-color: var(--accent-7);
+  background-color: var(--accent-2);
+}
+
+.hiddenInput {
+  display: none;
+}
+
+.uploadIcon {
+  color: var(--accent-9);
+}
+
+.fileChip {
+  background-color: var(--gray-a2);
+  border: 1px solid var(--gray-a5);
+  border-radius: var(--radius-2);
+  padding: var(--space-2) var(--space-3);
+  min-width: 0;
+}
+
+.fileName {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--gray-12);
+}
