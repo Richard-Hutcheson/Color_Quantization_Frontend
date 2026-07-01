@@ -1,0 +1,18 @@
+.wrapper {
+  min-height: 300px;
+}
+
+.spinner {
+  width: 52px;
+  height: 52px;
+  border: 4px solid var(--accent-3);
+  border-top-color: var(--accent-9);
+  border-radius: 50%;
+  animation: spin 0.75s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
